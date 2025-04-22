@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Data for plotting
+x = ['A', 'B', 'C', 'D', 'E']
+y = [10, 20, 30, 40, 50]
+
+# Bar Chart
+plt.figure(figsize=(10, 6))
+plt.bar(x, y, color='skyblue')
+plt.title("Bar Chart")
+plt.xlabel("Categories")
+plt.ylabel("Values")
+plt.show()
